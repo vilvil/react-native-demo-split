@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55D44E74200F388A000C100B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D44E73200F388A000C100B /* AppDelegate.m */; };
+		55D44E77200F388A000C100B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D44E76200F388A000C100B /* ViewController.m */; };
+		55D44E7A200F388A000C100B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D44E78200F388A000C100B /* Main.storyboard */; };
+		55D44E7C200F388A000C100B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D44E7B200F388A000C100B /* Assets.xcassets */; };
+		55D44E7F200F388A000C100B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D44E7D200F388A000C100B /* LaunchScreen.storyboard */; };
+		55D44E82200F388A000C100B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D44E81200F388A000C100B /* main.m */; };
+		55D44E8C200F3BCA000C100B /* VSReactNativeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D44E89200F3BCA000C100B /* VSReactNativeManager.m */; };
+		55D44E8D200F3BCA000C100B /* VSReactNativeRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D44E8B200F3BCA000C100B /* VSReactNativeRootViewController.m */; };
+		55D44E90200F40A6000C100B /* split in Resources */ = {isa = PBXBuildFile; fileRef = 55D44E8F200F40A5000C100B /* split */; };
+		713DEA71B138CB255AB4EA5E /* Pods_splitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF5986A9D0E91B543EFFC18 /* Pods_splitDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55D44E6F200F388A000C100B /* splitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = splitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D44E72200F388A000C100B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55D44E73200F388A000C100B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55D44E75200F388A000C100B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55D44E76200F388A000C100B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55D44E79200F388A000C100B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55D44E7B200F388A000C100B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55D44E7E200F388A000C100B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55D44E80200F388A000C100B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D44E81200F388A000C100B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55D44E88200F3BCA000C100B /* VSReactNativeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSReactNativeManager.h; sourceTree = "<group>"; };
+		55D44E89200F3BCA000C100B /* VSReactNativeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSReactNativeManager.m; sourceTree = "<group>"; };
+		55D44E8A200F3BCA000C100B /* VSReactNativeRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSReactNativeRootViewController.h; sourceTree = "<group>"; };
+		55D44E8B200F3BCA000C100B /* VSReactNativeRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSReactNativeRootViewController.m; sourceTree = "<group>"; };
+		55D44E8E200F3D25000C100B /* RCTBatchedBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTBatchedBridge.h; sourceTree = "<group>"; };
+		55D44E8F200F40A5000C100B /* split */ = {isa = PBXFileReference; lastKnownFileType = folder; path = split; sourceTree = "<group>"; };
+		5F2C048D286E62E30423EDB2 /* Pods-splitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-splitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-splitDemo/Pods-splitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9AF5986A9D0E91B543EFFC18 /* Pods_splitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_splitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D72DBFD2AEEC30B305FA97 /* Pods-splitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-splitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-splitDemo/Pods-splitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55D44E6C200F388A000C100B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713DEA71B138CB255AB4EA5E /* Pods_splitDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19603C7CB8D77FC0850D7993 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AF5986A9D0E91B543EFFC18 /* Pods_splitDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55D44E66200F388A000C100B = {
+			isa = PBXGroup;
+			children = (
+				55D44E71200F388A000C100B /* splitDemo */,
+				55D44E70200F388A000C100B /* Products */,
+				B598D43620C3B06484E32F45 /* Pods */,
+				19603C7CB8D77FC0850D7993 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55D44E70200F388A000C100B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55D44E6F200F388A000C100B /* splitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55D44E71200F388A000C100B /* splitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				55D44E8F200F40A5000C100B /* split */,
+				55D44E8E200F3D25000C100B /* RCTBatchedBridge.h */,
+				55D44E88200F3BCA000C100B /* VSReactNativeManager.h */,
+				55D44E89200F3BCA000C100B /* VSReactNativeManager.m */,
+				55D44E8A200F3BCA000C100B /* VSReactNativeRootViewController.h */,
+				55D44E8B200F3BCA000C100B /* VSReactNativeRootViewController.m */,
+				55D44E72200F388A000C100B /* AppDelegate.h */,
+				55D44E73200F388A000C100B /* AppDelegate.m */,
+				55D44E75200F388A000C100B /* ViewController.h */,
+				55D44E76200F388A000C100B /* ViewController.m */,
+				55D44E78200F388A000C100B /* Main.storyboard */,
+				55D44E7B200F388A000C100B /* Assets.xcassets */,
+				55D44E7D200F388A000C100B /* LaunchScreen.storyboard */,
+				55D44E80200F388A000C100B /* Info.plist */,
+				55D44E81200F388A000C100B /* main.m */,
+			);
+			path = splitDemo;
+			sourceTree = "<group>";
+		};
+		B598D43620C3B06484E32F45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0D72DBFD2AEEC30B305FA97 /* Pods-splitDemo.debug.xcconfig */,
+				5F2C048D286E62E30423EDB2 /* Pods-splitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55D44E6E200F388A000C100B /* splitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D44E85200F388A000C100B /* Build configuration list for PBXNativeTarget "splitDemo" */;
+			buildPhases = (
+				6BBDDB9A27FF3777C2CB3540 /* [CP] Check Pods Manifest.lock */,
+				55D44E6B200F388A000C100B /* Sources */,
+				55D44E6C200F388A000C100B /* Frameworks */,
+				55D44E6D200F388A000C100B /* Resources */,
+				8E366CBE4CD7A8F0BE9B5338 /* [CP] Embed Pods Frameworks */,
+				D868C4FC6EA07052D8957AA3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = splitDemo;
+			productName = splitDemo;
+			productReference = 55D44E6F200F388A000C100B /* splitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55D44E67200F388A000C100B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = dave;
+				TargetAttributes = {
+					55D44E6E200F388A000C100B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 55D44E6A200F388A000C100B /* Build configuration list for PBXProject "splitDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55D44E66200F388A000C100B;
+			productRefGroup = 55D44E70200F388A000C100B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55D44E6E200F388A000C100B /* splitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55D44E6D200F388A000C100B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D44E7F200F388A000C100B /* LaunchScreen.storyboard in Resources */,
+				55D44E90200F40A6000C100B /* split in Resources */,
+				55D44E7C200F388A000C100B /* Assets.xcassets in Resources */,
+				55D44E7A200F388A000C100B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BBDDB9A27FF3777C2CB3540 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-splitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E366CBE4CD7A8F0BE9B5338 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-splitDemo/Pods-splitDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/React/React.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-splitDemo/Pods-splitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D868C4FC6EA07052D8957AA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-splitDemo/Pods-splitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55D44E6B200F388A000C100B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D44E77200F388A000C100B /* ViewController.m in Sources */,
+				55D44E82200F388A000C100B /* main.m in Sources */,
+				55D44E74200F388A000C100B /* AppDelegate.m in Sources */,
+				55D44E8D200F3BCA000C100B /* VSReactNativeRootViewController.m in Sources */,
+				55D44E8C200F3BCA000C100B /* VSReactNativeManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55D44E78200F388A000C100B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D44E79200F388A000C100B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55D44E7D200F388A000C100B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D44E7E200F388A000C100B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55D44E83200F388A000C100B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55D44E84200F388A000C100B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55D44E86200F388A000C100B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D72DBFD2AEEC30B305FA97 /* Pods-splitDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8SYU5KKPJ;
+				INFOPLIST_FILE = splitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivi.splitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55D44E87200F388A000C100B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F2C048D286E62E30423EDB2 /* Pods-splitDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8SYU5KKPJ;
+				INFOPLIST_FILE = splitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivi.splitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55D44E6A200F388A000C100B /* Build configuration list for PBXProject "splitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D44E83200F388A000C100B /* Debug */,
+				55D44E84200F388A000C100B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D44E85200F388A000C100B /* Build configuration list for PBXNativeTarget "splitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D44E86200F388A000C100B /* Debug */,
+				55D44E87200F388A000C100B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55D44E67200F388A000C100B /* Project object */;
+}
