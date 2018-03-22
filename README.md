@@ -54,7 +54,12 @@ npm install
 ```
 open android studio then run project
 ###iOS:
-
+```
+cd split-example
+npm install
+./run-example-ios.sh
+```
+open xcode then run 
 
 ## License
 ```
