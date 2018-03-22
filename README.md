@@ -34,7 +34,7 @@ In this example, it have clear project structure and some hack to RN framework (
 ```
 
 ## Usage
-
+path : ${project_dir}/split-example/
 ```
 android:
 npm install
@@ -44,15 +44,17 @@ iOS:
 npm install
 node ../index.js --platform ios --output build/ios --config .splitconfig --dev false
 ```
-See example [run-example.sh](./split-example/run-example.sh).
 
 ## Run Example
-
+###Android:
 ```
 cd split-example
 npm install
-./run-example.sh
+./run-example-android.sh
 ```
+open android studio then run project
+###iOS:
+
 
 ## License
 ```
