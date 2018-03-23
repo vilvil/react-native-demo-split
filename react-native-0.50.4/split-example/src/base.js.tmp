@@ -1,0 +1,8 @@
+// base modules
+require('react-native');
+require('./resolveInject');
+require('./modules/index.js');
+
+require('AppRegistry')
+require('/Users/dave/Documents/react native 分包demo/react-native-split-master-0.50.4/split-example/src/components/packagea/SampleA.js');
+require('/Users/dave/Documents/react native 分包demo/react-native-split-master-0.50.4/split-example/src/components/packageb/SampleB.js');

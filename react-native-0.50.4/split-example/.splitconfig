@@ -1,0 +1,16 @@
+{
+  "package": "example",
+  "base": {
+    "index": "./src/base.js",
+    "includes": [
+      "./src/modules/*"
+    ]
+  },
+  "custom": [{
+    "name": "sample_a",
+    "index": "./src/components/packagea/SampleA.js"
+  }, {
+    "name": "sample_b",
+    "index": "./src/components/packageb/SampleB.js"
+  }]
+}
